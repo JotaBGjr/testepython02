@@ -40,7 +40,8 @@ dolar = float(input('Qual o valor do dólar hoje? :R$'))
 resultado = (real / dolar )
 print('Com R${:.2f}, você consegue comprar: {:.2f} Dólar americano'.format(real, resultado, dolar))
 vardólar = (dolar - 5.41)/dolar
-print('O Dólar variou: {:2f}%'.format(vardólar*100))capital = float(input('Vamos cálcular o Juros compostos de um empréstimo! Me fala um valor para empréstimo: R$'))
+print('O Dólar variou: {:2f}%'.format(vardólar*100))
+capital = float(input('Vamos cálcular o Juros compostos de um empréstimo! Me fala um valor para empréstimo: R$'))
 juros = float(input('Qual a taxa de juros anual: %'))
 i = juros/100
 y = 1
